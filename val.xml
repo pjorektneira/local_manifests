@@ -15,5 +15,6 @@
         <project path="hardware/qcom-caf/msm8998-r/display" name="hardware_qcom_display" remote="rna" revision="11-msm8998" />
         <project path="hardware/qcom-caf/msm8998-r/audio" name="hardware_qcom_audio" remote="rna" revision="11-msm8998" />
         <project path="hardware/qcom-caf/msm8998-r/media" name="hardware_qcom_media" remote="rna" revision="11-msm8998" />
+        <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="arm64-gcc" remote="rna" revision="master" />
+        <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="arm32-gcc" remote="rna" revision="master" />
 </manifest>
-  	
