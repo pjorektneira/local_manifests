@@ -7,14 +7,20 @@
 	<remote name="revenge"
 		fetch="https://github.com/RevengeOS-Devices/"
 		/>
-        <project path="device/xiaomi/whyred" name="device_xiaomi_whyred" remote="revenge" revision="r11.0" />
-        <project path="device/xiaomi/sdm660-common" name="device_xiaomi_whyred-common" remote="revenge" revision="r11.0" />
+        <project path="device/xiaomi/whyred" name="device_xiaomi_whyred" remote="rna" revision="rippa />
+        <project path="device/xiaomi/sdm660-common" name="device_xiaomi_whyred-common" remote="rna" revision="rippa" />
         <project path="kernel/xiaomi/sdm660" name="kernel_xiaomi_whyred" remote="revenge" revision="r11.0" />
-        <project path="vendor/xiaomi" name="vendor_xiaomi_whyred" remote="revenge" revision="r11.0" />
+        <project path="vendor/xiaomi" name="vendor_xiaomi_whyred" remote="rna" revision="rippa" />
         <project path="vendor/MiuiCamera" name="MiuiCamera" remote="rna" revision="r11.0" />
-        <project path="hardware/qcom-caf/msm8998-r/display" name="hardware_qcom_display" remote="rna" revision="11-msm8998" />
-        <project path="hardware/qcom-caf/msm8998-r/audio" name="hardware_qcom_audio" remote="rna" revision="11-msm8998" />
-        <project path="hardware/qcom-caf/msm8998-r/media" name="hardware_qcom_media" remote="rna" revision="11-msm8998" />
+        <project path="hardware/qcom/display" name="hardware_qcom_display" remote="rna" revision="rippa" />
+        <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="hardware_qcom_audio" remote="rna" revision="rippa" />
+        <project path="hardware/qcom/media" name="hardware_qcom_media" remote="rna" revision="rippa" />
         <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="arm64-gcc" remote="rna" revision="master" />
         <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="arm32-gcc" remote="rna" revision="master" />
+        <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="rna" revision="rippa" />
+        <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="rna" revision="rippa" />
+        <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" remote="rna" revision="rippa" />
+        <project path="packages/providers/TelephonyProvider"n ame="packages_providers_TelephonyProvider" remote="rna" revision="rippa" />
+        <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="rna" revision="rippa" />
+        <project path="frameworks/base" name="android_frameworks_base" remote="rna" revision"rippa" />
 </manifest>
