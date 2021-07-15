@@ -4,17 +4,12 @@
 		fetch="https://github.com/pjorektneira/"
 		 />
 
-	<remote name="revenge"
-		fetch="https://github.com/RevengeOS-Devices/"
-		/>
-        <project path="device/xiaomi/whyred" name="device_xiaomi_whyred" remote="revenge" revision="r11.0" />
-        <project path="device/xiaomi/sdm660-common" name="device_xiaomi_whyred-common" remote="revenge" revision="r11.0" />
-        <project path="kernel/xiaomi/sdm660" name="kernel_xiaomi_whyred" remote="revenge" revision="r11.0" />
-        <project path="vendor/xiaomi" name="vendor_xiaomi_whyred" remote="revenge" revision="r11.0" />
+        <project path="device/xiaomi/whyred" name="device_xiaomi_whyred" remote="rna" revision="Rika" />
+        <project path="device/xiaomi/whyred-kernel" name="device_xiaomi_whyred-kernel" remote="rna" revision="Rika" />
+        <project path="device/xiaomi/sdm660-common" name="device_xiaomi_whyred-common" remote="rna" revision="Rika" />
+        <project path="vendor/xiaomi" name="vendor_xiaomi_whyred" remote="rna" revision="Rika" />
         <project path="vendor/MiuiCamera" name="MiuiCamera" remote="rna" revision="r11.0" />
-        <project path="hardware/qcom-caf/msm8998-r/display" name="hardware_qcom_display" remote="rna" revision="11-msm8998" />
-        <project path="hardware/qcom-caf/msm8998-r/audio" name="hardware_qcom_audio" remote="rna" revision="11-msm8998" />
-        <project path="hardware/qcom-caf/msm8998-r/media" name="hardware_qcom_media" remote="rna" revision="11-msm8998" />
-        <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="arm64-gcc" remote="rna" revision="master" />
-        <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="arm32-gcc" remote="rna" revision="master" />
+        <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom_display" remote="rna" revision="wfd-test" />
+        <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom_audio" remote="rna" revision="11-msm8998" />
+        <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom_media" remote="rna" revision="11-msm8998" />
 </manifest>
